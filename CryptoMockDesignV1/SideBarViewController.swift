@@ -10,5 +10,5 @@ import AppKit
 
 
 class SideBarViewController {
-    
+    // TODO: SideBarViewController Logic
 }
