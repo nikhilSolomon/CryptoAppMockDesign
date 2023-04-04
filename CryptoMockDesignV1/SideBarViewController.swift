@@ -9,6 +9,7 @@ import Foundation
 import AppKit
 
 
+//MARK: - SideBarViewController
 class SideBarViewController {
     // TODO: SideBarViewController Logic
 }
