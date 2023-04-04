@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+import AppKit
+
+
+class RightSideBarViewController: NSViewController {
+    override func loadView() {
+        self.view = NSView()
+        self.view.wantsLayer = true
+        self.view.layer?.backgroundColor = NSColor.blue.cgColor
+    }
+}

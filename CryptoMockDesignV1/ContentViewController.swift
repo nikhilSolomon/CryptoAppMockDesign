@@ -6,3 +6,14 @@
 //
 
 import Foundation
+import AppKit
+
+
+
+class ContentViewController: NSViewController {
+    override func loadView() {
+        self.view = NSView()
+        self.view.wantsLayer = true
+        self.view.layer?.backgroundColor = .init(red: 238, green: 243, blue: 245, alpha: 0.5)
+    }
+}

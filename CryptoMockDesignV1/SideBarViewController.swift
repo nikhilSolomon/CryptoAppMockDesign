@@ -10,6 +10,12 @@ import AppKit
 
 
 //MARK: - SideBarViewController
-class SideBarViewController {
-    // TODO: SideBarViewController Logic
+
+
+class SideBarViewController: NSViewController {
+    override func loadView() {
+        self.view = NSView()
+        self.view.wantsLayer = true
+        self.view.layer?.backgroundColor = .init(red: 147, green: 250, blue: 251, alpha: 0.8)
+    }
 }

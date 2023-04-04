@@ -16,10 +16,10 @@
 		B5B12D1229DBFD1400AB80E2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B12D1129DBFD1400AB80E2 /* main.swift */; };
 		B5B12D1429DBFD5600AB80E2 /* HomeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B12D1329DBFD5600AB80E2 /* HomeWindow.swift */; };
 		B5B12D1629DC08C300AB80E2 /* CustomToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B12D1529DC08C300AB80E2 /* CustomToolBar.swift */; };
-		B5B12D1929DC484800AB80E2 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B12D1829DC484800AB80E2 /* SplitViewController.swift */; };
 		B5B12D1B29DC486400AB80E2 /* SideBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B12D1A29DC486400AB80E2 /* SideBarViewController.swift */; };
 		B5B12D1D29DC487B00AB80E2 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B12D1C29DC487B00AB80E2 /* ContentViewController.swift */; };
 		B5B12D1F29DC489B00AB80E2 /* RightSideBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B12D1E29DC489B00AB80E2 /* RightSideBarViewController.swift */; };
+		B5B12D2129DC544B00AB80E2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B12D2029DC544B00AB80E2 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		B5B12D1129DBFD1400AB80E2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B5B12D1329DBFD5600AB80E2 /* HomeWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWindow.swift; sourceTree = "<group>"; };
 		B5B12D1529DC08C300AB80E2 /* CustomToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToolBar.swift; sourceTree = "<group>"; };
-		B5B12D1829DC484800AB80E2 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
 		B5B12D1A29DC486400AB80E2 /* SideBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarViewController.swift; sourceTree = "<group>"; };
 		B5B12D1C29DC487B00AB80E2 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		B5B12D1E29DC489B00AB80E2 /* RightSideBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightSideBarViewController.swift; sourceTree = "<group>"; };
+		B5B12D2029DC544B00AB80E2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +115,10 @@
 				B5B12D1129DBFD1400AB80E2 /* main.swift */,
 				B5B12D1329DBFD5600AB80E2 /* HomeWindow.swift */,
 				B5B12D1529DC08C300AB80E2 /* CustomToolBar.swift */,
-				B5B12D1829DC484800AB80E2 /* SplitViewController.swift */,
 				B5B12D1A29DC486400AB80E2 /* SideBarViewController.swift */,
 				B5B12D1C29DC487B00AB80E2 /* ContentViewController.swift */,
 				B5B12D1E29DC489B00AB80E2 /* RightSideBarViewController.swift */,
+				B5B12D2029DC544B00AB80E2 /* MainViewController.swift */,
 			);
 			path = CryptoMockDesignV1;
 			sourceTree = "<group>";
@@ -284,7 +284,7 @@
 				B5B12CE729DBF90400AB80E2 /* AppDelegate.swift in Sources */,
 				B5B12D1F29DC489B00AB80E2 /* RightSideBarViewController.swift in Sources */,
 				B5B12D1229DBFD1400AB80E2 /* main.swift in Sources */,
-				B5B12D1929DC484800AB80E2 /* SplitViewController.swift in Sources */,
+				B5B12D2129DC544B00AB80E2 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
