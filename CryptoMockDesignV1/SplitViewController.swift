@@ -14,8 +14,8 @@ class SplitViewController: NSSplitViewController {
         super.viewDidLoad()
 
         // Create the child view controllers
-        let leftViewController = LeftViewController()
-        let rightViewController = RightViewController()
+//        let leftViewController = LeftViewController()
+//        let rightViewController = RightViewController()
 
         // Set the child view controllers as the split view items
         splitViewItems = [

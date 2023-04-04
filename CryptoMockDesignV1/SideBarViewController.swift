@@ -9,4 +9,6 @@ import Foundation
 import AppKit
 
 
-//class SideBarViewController
+class SideBarViewController {
+    
+}
